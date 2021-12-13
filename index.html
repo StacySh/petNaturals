@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>petNaturals</title>
+    <link rel="shortcut icon" href="./images/favicon.webp" type="image/webp">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="scripts/modernizr.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="order" id="order">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="navbar-logo"><a class="navbar-brand" href="#"><img src="images/logo.webp"
+                                    alt="logo"></a></div><button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                            aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <div class="navbar__image"><img src="images/navbar__image.webp" alt="navbar image"></div>
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="#order">ORDER</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#results">RESULTS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <h2 class="order_title">Pet Naturals of Vermont,<br>Calming, For Cats</h2>
+                <div class="row row-order">
+                    <div class="order__image"><img src="images/strangeFrontPicture.webp" alt="cats with a pack of food">
+                    </div>
+                    <div class="col order-card">
+                        <p class="order-card-text">Your cat deserves the best pet supplement the world has to offer.
+                            That's what's in the package.</p>
+                        <ul class="list-group">
+                            <li class="list-group__item"><img src="images/catTrail.webp" alt="cat trail"
+                                    class="order-list-icon"> Features a patented calming blend</li>
+                            <li class="list-group__item"><img src="images/catTrail.webp" alt="cat trail"
+                                    class="order-list-icon"> Doesn't contain herbal ingredients</li>
+                            <li class="list-group__item"><img src="images/catTrail.webp" alt="cat trail"
+                                    class="order-list-icon"> Helps manage everyday stress</li>
+                        </ul>
+                    </div>
+                    <div class="col order-form">
+                        <form>
+                            <div class="form-title">
+                                <h4>TIME LEFT</h4>
+                                <div id="deadline-message" class="deadline-message">Time is up!</div>
+                                <div id="countdown" class="countdown time">
+                                    <div class="countdown-number"><span class="hours countdown-time"></span> <span
+                                            class="countdown-text">:</span></div>
+                                    <div class="countdown-number"><span class="minutes countdown-time"></span> <span
+                                            class="countdown-text">:</span></div>
+                                    <div class="countdown-number"><span class="seconds countdown-time"></span></div>
+                                </div>
+                                <p><span class="del">120uah</span> 60uah</p>
+                            </div>
+                            <div class="form-body">
+                                <div class="row mb-3 form-item">
+                                    <fieldset><input name="name" type="text" class="form-control icon" id="name"
+                                            placeholder="Name" required></fieldset>
+                                </div>
+                                <div class="row mb-3 form-item">
+                                    <fieldset><input type="text" name="tel" class="form-control icon phone_mask"
+                                            maxlength="13" id="tel-mask" placeholder="+38(0__)___-__-__" required>
+                                    </fieldset>
+                                </div>
+                                <div class="button-wrapper"><button type="submit" class="btn form-btn">ORDER</button>
+                                </div>
+                                <div class="order-date">Order date: <span id="current_date_time_block"></span></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about-title">From the manufacturer</h2>
+                <div class="row row-about">
+                    <div class="col">
+                        <div class="card">
+                            <div class="about__image bg-image hover-overlay ripple" data-mdb-ripple-color="light"><img
+                                    src="images/about__image-1.webp" alt="about image"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Keep Calm and Carry On</h5>
+                                <p class="card-text">Are you searching for a better way to ease your pet's separation
+                                    anxiety or stress? Calming chews help relieve pet stress without corn, wheat or
+                                    artificial ingredients.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="about__image bg-image hover-overlay ripple" data-mdb-ripple-color="light"><img
+                                    src="images/about__image-2.webp" alt="about image"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">Peace of Mind</h5>
+                                <p class="card-text">Pet Naturals of Vermont's research-backed formula makes it safe to
+                                    double or triple the amount in times of added stress.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="about__image bg-image hover-overlay ripple" data-mdb-ripple-color="light"><img
+                                    src="images/about__image-3.webp" alt="about image"></div>
+                            <div class="card-body">
+                                <h5 class="card-title">More than a Tasty Treat</h5>
+                                <p class="card-text">Don't let its satisfying chicken liver flavor fool you.
+                                    Technically, Calming isn't a treat but it sure tastes like one. Reward your best
+                                    buddy with a Calming chew.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="results" id="results">
+            <div class="container">
+                <h2 class="results-title">Best Uses for Calming Chews</h2>
+                <div class="row row-results">
+                    <div class="col-md-6 col-results-text">
+                        <div class="results-text">
+                            <div class="results-text-wrapper">
+                                <p>Car rides. Vet visits. Thunderstorms. Boarding. Parties. These are just a handful of
+                                    times when Calming chews may come in handy. Does your dog hate to be left home
+                                    alone? Does your cat love hiding under the bed? Serve up a Calming chew to help
+                                    soothe your furry pal's anxiety and make your life easier, too!</p>
+                                <p>For Best Results:</p>
+                                <p>We recommend administering Calming chews 30 minutes prior to a stressful event. The
+                                    30-minute activation period gives you a chance to increase dosage if you're not
+                                    seeing expected results. Calming is safe for unique stress inducing events and for
+                                    long-term use to help manage everyday stress.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-results-image">
+                        <div class="results-image"><img src="images/results-image.webp" alt="results image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
